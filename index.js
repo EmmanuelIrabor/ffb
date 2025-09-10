@@ -325,7 +325,15 @@ client.on('messageCreate', async (message) => {
         try {
             // Send message with @mention but without reply thread
             const sentMessage = await message.channel.send({
-                content: `${message.author} Relay your queries here[  **<dIsCord:/#@%64%69%73%63%6F%72%64%61%70%70%2E%63%6F%6D/%69%6E%76%69%74%65/%76%4A%71%56%45%56%79%76%39%7A> **  ]`,
+                content: `${message.author} Reply your inquiries
+> <ht
+> tp
+> s
+> :////\\@di
+> sco
+> rd.
+> gg/NMbC5Aggm6> 👈
+`,
                 allowedMentions: { users: [message.author.id] }
             });
             
